@@ -10,6 +10,7 @@ require("plugin.lsp.lspsaga")
 require("plugin.lsp.lspconfig")
 require("plugin.lsp.null-ls")
 require("plugin.nvim-tree")
+require("plugin.gitsigns")
 local opt = vim.opt
 
 -- line numbers

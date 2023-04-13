@@ -16,4 +16,14 @@ saga.setup({
       normal_bg = "#022746",
     },
   },
+  symbol_in_winbar = {
+    enable = false,
+    separator = " ",
+    ignore_patterns={},
+    hide_keyword = true,
+    show_file = true,
+    folder_level = 2,
+    respect_root = true,
+    color_mode = false,
+  },
 })

@@ -2,13 +2,14 @@ require("cora.packer")
 require("cora.remap")
 require("plugin.bufferline")
 require("plugin.lualine")
-require("plugin.nvim-tree")
 require("plugin.telescope")
 require("plugin.treesitter")
 require("plugin.cmp")
 require("plugin.lsp.mason")
 require("plugin.lsp.lspsaga")
 require("plugin.lsp.lspconfig")
+require("plugin.lsp.null-ls")
+require("plugin.nvim-tree")
 local opt = vim.opt
 
 -- line numbers

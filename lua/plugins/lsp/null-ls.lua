@@ -19,8 +19,9 @@ null_ls.setup({
 		--  "formatting.prettier.with({disabled_filetypes = {}})" (see null-ls docs)
 		formatting.prettier, -- js/ts formatter
 		formatting.stylua, -- lua formatter
-    formatting.clang_format,
-    diagnostics.cpplint,
+		--formatting.clang_format.with({ extra_args = { "-style={IndentWidth: 4, TabWidth: 4, UseTab: Never}" } }),
+		formatting.clang_format,
+		diagnostics.cpplint,
 		diagnostics.eslint_d.with({ -- js/ts linter
 			-- only enable eslint if root has .eslintrc.js (not in youtube nvim video)
 			condition = function(utils)
